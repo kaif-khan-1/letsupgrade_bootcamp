@@ -1,12 +1,5 @@
-function counter() {
-    let count = 0;
-    return function() {
-      return count++;
-    };
-  }
-  
-  const add = counter();
-  add(); // 0
-  add(); // 1
-  add(); // 2
-  add(); // 3
+ document.addEventListener('click',()=>{
+    setTimeout(()=>{
+        console.log('hello after 3s')
+    }, 3000)
+  })
